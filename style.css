@@ -45,7 +45,7 @@ a:link {
     align-items: center;
     background-color: #1f2937;
     gap: 24px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     padding: 40px;
 }
 
@@ -87,3 +87,118 @@ img {
     font-weight: bold;
     border-radius: 8px;
 }
+
+/* Information Section */
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+}
+
+.info-content img {
+    display: flex;
+    justify-content: space-between;
+    height: 125px;
+    width: 125px;
+    border: 3px solid #3882f6;
+    margin: 20px;
+    border-radius: 10%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+    text-align: center;
+}
+
+/* Quote section */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 50px 0px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    max-width: 900px;
+}
+
+.author p {
+    /* display: flex;
+    flex-direction: row; */
+    /* justify-content: flex-end;
+    align-items: flex-end; */
+    text-align: right;
+    color: black;
+    font-weight: bold;
+}
+
+/* CTA */
+
+.cta-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #3882f6;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    max-width: 900px;
+    padding: 20px;
+}
+
+.cta-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.cta-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta-container button {
+    padding: 10px 20px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    height: 80px;
+    padding-top: 35px;
+}
+
+
